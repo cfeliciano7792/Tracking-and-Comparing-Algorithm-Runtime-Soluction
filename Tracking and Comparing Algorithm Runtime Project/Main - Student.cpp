@@ -2,7 +2,7 @@
 	Program Name:	CS260 Tracking and Comparing Algorithm Runtime Project
 	Programmer:		Christian Feliciano
 	Date:			10/5/2023
-	Last Update:	10/5/2023
+	Last Update:	10/6/2023
 */
 
 #include <iostream>
