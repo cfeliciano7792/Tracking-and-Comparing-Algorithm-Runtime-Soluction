@@ -61,28 +61,19 @@ int main()
             TimingSearch(sortedData, existItem, searchType);
 
             //1a. Timing BINARY search for non-existing item:
-            //### Add code here to call TimingSearch() function
-            //in order to use binary search algorithm 
-            //to search for non-existing item in the data file ###
-            searchType = "binary";
+            //Switched search type to binary then called Timing Binary search
+            //searchType = "binary";
             TimingSearch(sortedData, notExistItem, searchType);
 
             //1b. Timing BINARY search for existing item:
-            //### Add code here to call TimingSearch() function
-            //in order to use binary search algorithm 
-            //to search for existing item in the data file ###
             TimingSearch(sortedData, existItem, searchType);
 
             //2a. Timing BINARY RECURSIVE search for non-existing item:
-            //### Add code here to call TimingSearch() function
-            //in order to use binary recursive search algorithm 
-            //to search for non-existing item in the data file ###
-            searchType = "recursive binary";
+            //switched search type to recursive binary then called timing search using recursive binary
+            //searchType = "recursive binary";
             TimingSearch(sortedData, notExistItem, searchType);
+
             //2b. Timing BINARY RECURSIVE search for existing item:
-            //### Add code here to call TimingSearch() function
-            //in order to use binary recursive search algorithm 
-            //to search for existing item in the data file ###
             TimingSearch(sortedData, existItem, searchType);
        
         }
